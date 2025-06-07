@@ -1,0 +1,27 @@
+Road Scene Segmentation Test Results (Custom UNetDeepLabFusion Model)
+========================================
+Model: best_deeplabv3plus_mobilenet_cityscapes_os16.pth
+Architecture: UNet + DeepLabV3+ Fusion with EfficientNet-B0
+Test samples: 50
+Overall mIoU: 0.0068
+
+Class-wise IoU:
+ 0. road           : 0.0000 (50 samples)
+ 1. sidewalk       : 0.0000 (37 samples)
+ 2. building       : 0.0000 (36 samples)
+ 3. wall           : 0.0000 (12 samples)
+ 4. fence          : 0.0000 (18 samples)
+ 5. pole           : 0.0000 (50 samples)
+ 6. traffic light  : 0.0000 (22 samples)
+ 7. traffic sign   : 0.0000 (39 samples)
+ 8. vegetation     : 0.0000 (49 samples)
+ 9. terrain        : 0.0000 (45 samples)
+10. sky            : 0.0000 (49 samples)
+11. person         : 0.0000 (11 samples)
+12. rider          : 0.0000 (6 samples)
+13. car            : 0.0673 (50 samples)
+14. truck          : 0.0000 (18 samples)
+15. bus            : 0.0000 (5 samples)
+16. train          : 0.0000 (6 samples)
+17. motorcycle     : 0.0000 (2 samples)
+18. bicycle        : 0.0000 (8 samples)
